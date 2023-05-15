@@ -1,0 +1,23 @@
+/*Глобальні стилі*/
+body{
+    font-family: 'Montserrat','serif';
+    color: #1f373b;
+}
+a {
+    text-decoration: none;
+    color: #1f373b;
+}
+/*header*/
+.header{
+ display: flex;
+ width: 1024px;
+ margin: 0 auto;
+ justify-content: space-between;
+ padding: 35PX 16PX;
+ align-items: center;
+}
+.header-logo{
+    font-size: 25px;
+    font-weight: 600px;
+    flex-grow: 1;
+}
